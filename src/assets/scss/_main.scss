@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+// Bulma customs
+$family-sans-serif: 'Poppins', sans-serif;
+
+// Bulma import
+@import '~bulma';
+
+// Globals
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+// Custom styles
+
+.cobot-form {
+  padding: 0 2rem 2rem 2rem;
+  @include from(1280px) {
+    padding: 0 25rem 0 25rem;
+  }
+}
